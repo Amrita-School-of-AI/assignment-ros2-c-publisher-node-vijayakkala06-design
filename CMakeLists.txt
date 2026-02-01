@@ -5,15 +5,10 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-<<<<<<< HEAD
-=======
-# find dependencies
->>>>>>> f65c14a398525fe73bf677bd3b39280b95472fec
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-<<<<<<< HEAD
 add_executable(publisher_node src/publisher_node.cpp)
 
 ament_target_dependencies(
@@ -29,16 +24,3 @@ install(
 
 ament_package()
 
-=======
-# TODO: Add the executable target named 'publisher_node'
-# 1. Add executable using src/publisher_node.cpp
-# 2. Add dependencies (ament_target_dependencies) for rclcpp and std_msgs
-# 3. Install the target to the DESTINATION lib/${PROJECT_NAME}
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
-
-ament_package()
->>>>>>> f65c14a398525fe73bf677bd3b39280b95472fec
