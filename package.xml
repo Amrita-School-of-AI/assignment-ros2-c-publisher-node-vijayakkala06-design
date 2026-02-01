@@ -3,33 +3,19 @@
 <package format="3">
   <name>ros2_publisher</name>
   <version>0.0.0</version>
-<<<<<<< HEAD
-  <description>ROS 2 C++ publisher node that publishes a counter message</description>
+  <description>ROS2 C++ Publisher Node</description>
 
-  <maintainer email="rajeshkumarreddykasireddy5@gmail.com">
-    kasireddy-rajesh-kumar
+  <maintainer email="vijaykiranreddy@example.com">
+    vijay-kiran-reddy
   </maintainer>
 
   <license>Apache-2.0</license>
 
-  <!-- Build system -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- Runtime dependencies -->
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
 
-  <!-- Testing dependencies -->
-=======
-  <description>Assignment: ROS2 Publisher Node</description>
-  <maintainer email="student@university.edu">Student Name</maintainer>
-  <license>Apache-2.0</license>
-
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <!-- TODO: Add dependencies for rclcpp and std_msgs -->
-
->>>>>>> f65c14a398525fe73bf677bd3b39280b95472fec
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
@@ -37,7 +23,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
-<<<<<<< HEAD
 
-=======
->>>>>>> f65c14a398525fe73bf677bd3b39280b95472fec
